@@ -1,16 +1,19 @@
-@font-face {
-    font-family: 'Comic Sans';
-    src: url(./Comic\ Sans\ MS.ttf);
+﻿body
+{
+	background-position: center top;
+	background-color: #000000;
+	font-family: Verdana;
+	background-image: url(/background.jpg);
+	background-repeat: repeat-x;
+	color: #FFFFFF;
 }
 
-.border {
-    margin: 0 15.5% 0 15.5%;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    border: solid;
+.brightness 
+{
+	filter: brightness(0) invert(1);
 }
-
-.comic-sans {
-    font-family: 'Comic Sans';
+.links
+{
+	text-align: center;
+	color: White;
 }
